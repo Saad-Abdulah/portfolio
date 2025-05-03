@@ -2,19 +2,17 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import React from 'react'
 
-
-const NavItem = ({ NavIcon, NavText, NavRoute, setIsOpen }) => {
+const NavItem = ({ NavIcon, NavText, NavRoute }) => {
     const router = useRouter();
-    const className = router.asPath === `${NavRoute}` ? "rounded-xl !text-DeepNightBlack bg-Green font-bold tracking-widest" : '';
+    const className = router.asPath === `${NavRoute}` ? "!text-DeepNightBlack bg-Green font-bold tracking-widest" : '';
 
     return (
         <Link
-            onClick={(e) => setIsOpen(false)}
             href={NavRoute}
-            className={`${className} transition flex items-center px-2 hover:bg-EveningBlack text-SilverGray hover:text-SilverGray rounded-xl  py-1.5 font-semibold space-x-4 text-base`}
+            className={`${className} transition flex items-center px-1 sm:px-3 py-1 sm:py-2 hover:bg-EveningBlack/10 text-SilverGray hover:text-SilverGray rounded-xl font-semibold space-x-1 sm:space-x-2 text-xs sm:text-base min-w-[70px] sm:min-w-[120px] justify-center`}
         >
-            {NavIcon}
-            <span>{NavText}</span>
+            <span className="hidden xs:inline">{NavIcon}</span>
+            <span className="whitespace-nowrap text-xs sm:text-base">{NavText}</span>
         </Link>
     )
 }

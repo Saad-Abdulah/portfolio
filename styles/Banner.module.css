@@ -1,0 +1,32 @@
+/* New keyframes for rotating gradient border */
+@keyframes rotate-border {
+    0% {
+        border-image-source: linear-gradient(90deg, #00ff00, #00cc00, #009900, #006600);
+    }
+    25% {
+        border-image-source: linear-gradient(180deg, #00ff00, #00cc00, #009900, #006600);
+    }
+    50% {
+        border-image-source: linear-gradient(270deg, #00ff00, #00cc00, #009900, #006600);
+    }
+    75% {
+        border-image-source: linear-gradient(360deg, #00ff00, #00cc00, #009900, #006600);
+    }
+    100% {
+        border-image-source: linear-gradient(90deg, #00ff00, #00cc00, #009900, #006600);
+    }
+}
+
+.blinking {
+    position: relative; /* Ensure the button is positioned for the border */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border: 2px solid transparent; /* Set a transparent border */
+    border-image-slice: 1; /* Required for border-image to work */
+    animation: rotate-border 4s linear infinite; /* Apply the rotating border animation */
+    background-color: #1a1a1a; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 15px; /* Adjust border radius for a rounded button */
+}
+

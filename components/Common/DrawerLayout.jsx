@@ -16,7 +16,7 @@ const DrawerLayout = ({ setIsOpen, isOpen, children }) => {
                     (isOpen ? " translate-x-0 " : " translate-x-full ")
                 }
             >
-                <article className="relative h-screen">
+                <article className="relative overflow-y-auto">
                     {children}
                 </article>
             </section>
