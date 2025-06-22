@@ -1,6 +1,45 @@
 const portfolio = [
     {
         id: 0,
+        projectName: "FAST Career Connect",
+        url: "https://www.linkedin.com/posts/saadabdullah786_%F0%9D%90%85%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-activity-7329773721219395584-VPds",
+        image: "projects/FAST_Career_Connect.png",
+        projectDetail: "A .NET WinForms Desktop App using C# & MSSQL to manage student-recruiter interactions. Includes ER-based DB, role-based forms (Student, Recruiter, TPO, Booth Coordinator), RDLC reports, and complete job placement workflow (profiles, job posting, interviews, hiring, monitoring, stats & reports).",
+        technologiesUsed: [
+            {
+                tech: "C#"
+            },
+            {
+                tech: "SQL"
+            },
+            {
+                tech: "RDLC Reports"
+            },
+            {
+                tech: ".NET framework (Windows Forms)"
+            },
+        ]
+    },
+    {
+        id: 1,
+        projectName: "PACMAN",
+        url: "https://www.linkedin.com/posts/saadabdullah786_pacman-operatingsystems-gamedevelopment-activity-7342557549025542144-m7Dq",
+        image: "projects/Pacman_OS_Demo.png",
+        projectDetail: "⁠Developed a 𝙢𝙪𝙡𝙩𝙞-𝙩𝙝𝙧𝙚𝙖𝙙𝙚𝙙 Pac-Man clone using C, OpenGL, and SDL2, implementing key OS concepts like 𝙘𝙤𝙣𝙘𝙪𝙧𝙧𝙚𝙣𝙘𝙮, 𝙨𝙮𝙣𝙘𝙝𝙧𝙤𝙣𝙞𝙯𝙖𝙩𝙞𝙤𝙣, and 𝙚𝙫𝙚𝙣𝙩-𝙙𝙧𝙞𝙫𝙚𝙣 programming. Game logic handled through 𝙥𝙤𝙨𝙞𝙭 𝙩𝙝𝙧𝙚𝙖𝙙𝙨, 𝙢𝙪𝙩𝙚𝙭𝙚𝙨, 𝙨𝙚𝙢𝙖𝙥𝙝𝙤𝙧𝙚𝙨, and a thread-safe input queue for real-time gameplay. Showcased responsive UI, ghost AI, and clean memory management in a fully functional arcade-style experience.",
+        technologiesUsed: [
+            {
+                tech: "C"
+            },
+            {
+                tech: "OpenGL"
+            },
+            {
+                tech: "SDL2"
+            },
+            ]
+    },
+    {
+        id: 2,
         projectName: "Brick Breaker in Assembly",
         url: "https://www.linkedin.com/posts/saadabdullah786_customabruserabrinterface-pauseabroption-activity-7288198763410604033-PW2a",
         image: "projects/brickbreaker.jpg",
@@ -14,48 +53,6 @@ const portfolio = [
             },
         ]
     },
-    // {
-    //     id: 0,
-    //     projectName: "ABSCO",
-    //     url: "https://absco.sa/",
-    //     image: "projects/absco.png",
-    //     projectDetail: "ABSCO offer unparalleled business consulting solutions to meet client’s unique needs.",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 0,
-    //     projectName: "JMM Technologies",
-    //     url: "https://jmm.ltd/",
-    //     image: "projects/jmm.png",
-    //     projectDetail: "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: ".net"
-    //         },
-    //         {
-    //             tech: "REST API's"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
     // {
     //     id: 0,
     //     projectName: "ALSN",

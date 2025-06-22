@@ -28,7 +28,7 @@ const recommendationCard = [
     id: 3,
     name: 'Burhan Aslam',
     image: "images/burhan.jpeg",
-    designation: 'MERN Stack Developer at Productbox',
+    designation: 'MERN Stack Developer',
     view: "I highly recommend Saad Abdullah for roles in modern web application development. He demonstrates a solid grasp of front-end frameworks, server-side logic, and system design, enabling him to deliver end-to-end solutions with clarity and efficiency. His professionalism, adaptability, and commitment to writing clean, maintainable code make him a strong contributor to any engineering team.",
     linkednURL: "https://www.linkedin.com/in/burhan-aslam/"
   },
