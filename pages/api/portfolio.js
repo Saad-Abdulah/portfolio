@@ -53,6 +53,30 @@ const portfolio = [
             },
         ]
     },
+    {
+        id: 3,
+        projectName: "Blog App",
+        url: "https://www.linkedin.com/posts/saadabdullah786_customabruserabrinterface-pauseabroption-activity-7288198763410604033-PW2a",
+        image: "Blog_App.png",
+        projectDetail: "A dynamic MERN-based blog platform where users can register, log in, and publish blogs with custom cover images. Includes profile image support, a rich text editor, and search functionality. Readers can engage through likes, comments, and post sharing. | Secure Auth | Blog Image Upload | User Avatars | Real-time Engagement | Modern UI/UX.",
+        technologiesUsed: [
+            {
+                tech: "MongoDB"
+            },
+            {
+                tech: "Express"
+            },
+            {
+                tech: "React"
+            },
+            {
+                tech: "NodeJS"
+            },
+            {
+                tech: "JWT & bcryptjs",
+            },
+        ]
+    },
     // {
     //     id: 0,
     //     projectName: "ALSN",
