@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Badge = ({ title, src, w="3", h="3" }) => {
+const Badge = ({ title, src, w="6", h="6" }) => {
     return (
-        <span className='py-2 px-3 text-xs text-Snow bg-EveningBlack rounded-full flex items-center gap-2'>
+        <span className='py-1 px-1 text-xs text-Snow bg-EveningBlack rounded-full flex items-center gap-1'>
             {src && (
                 <img 
                     src={src} 

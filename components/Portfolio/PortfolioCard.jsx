@@ -107,7 +107,7 @@ const PortfolioCard = ({ data }) => {
                 </p>
                 <div className="text-sm flex flex-wrap gap-3 py-2">
                     {data.technologiesUsed.map((tech, key) => (
-                        <Badge key={key} title={tech.tech} src={tech.src} w={tech.w ? tech.w : 8} h={tech.h ? tech.h : 8} />
+                        <Badge key={key} title={tech.tech} src={tech.src} w={tech.w} h={tech.h} />
                     ))}
                 </div>
             </div>
