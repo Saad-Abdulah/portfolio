@@ -17,7 +17,9 @@ const portfolio = [
             },
             {
                 tech: "RDLC Reports",
-                src: "https://img.icons8.com/3d-fluency/94/business-report.png"
+                src: "https://img.icons8.com/3d-fluency/94/business-report.png",
+                w: "2",
+                h: "2",
             },
             {
                 tech: ".NET framework (Windows Forms)",
@@ -46,6 +48,8 @@ const portfolio = [
             {
                 tech: "SDL2",
                 src: "projects/techstack/sdl-2.png",
+                w: "8",
+                h: "8",
             },
             ]
     },
