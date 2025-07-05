@@ -46,6 +46,8 @@ const portfolio = [
             {
                 tech: "SDL2",
                 src: "projects/techstack/sdl-2.png",
+                w: "10",
+                h: "10",
             },
             ]
     },
