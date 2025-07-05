@@ -40,8 +40,8 @@ const portfolio = [
             {
                 tech: "OpenGL",
                 src: "projects/techstack/opengl.png",
-                w: 10,
-                h: 10,
+                w: "10",
+                h: "10",
             },
             {
                 tech: "SDL2",
