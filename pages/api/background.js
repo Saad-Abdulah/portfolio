@@ -23,7 +23,7 @@ const background = [
                 id: 2,
                 title: 'Goverment High School',
                 degree: 'Matric - SSC',
-                detail: "Completed my Education from Grade 6-10 by acquiring className Positions in each className as a Topper and Completed matriculation exam with (1026/1100)93.2% marks",
+                detail: "Completed my Education from Grade 6-10 by acquiring Positions in each class as a Topper and Completed matriculation exam with (1026/1100)93.2% marks",
                 year: '2016-2021',
                 positionLink: {
                     text: "🎓 Click here to see Position Certificate",
@@ -77,3 +77,4 @@ const background = [
 export default function handler(req, res) {
     res.status(200).json(background)
 }
+
