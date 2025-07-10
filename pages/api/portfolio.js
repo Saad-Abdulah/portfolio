@@ -4,7 +4,8 @@ const portfolio = [
         projectName: "FAST Career Connect",
         codeUrl: "https://github.com/Saad-Abdulah/FAST-Career-Connect",
         url: "https://www.linkedin.com/posts/saadabdullah786_%F0%9D%90%85%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-activity-7329773721219395584-VPds",
-        image: "projects/FAST_Career_Connect.png",
+        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        thumbnailimage: "projects/FAST_Career_Connect.png",
         projectDetail: "A .NET WinForms Desktop App using C# & MSSQL to manage student-recruiter interactions. Includes ER-based DB, role-based forms (Student, Recruiter, TPO, Booth Coordinator), RDLC reports, and complete job placement workflow (profiles, job posting, interviews, hiring, monitoring, stats & reports).",
         technologiesUsed: [
             {
@@ -22,15 +23,27 @@ const portfolio = [
             {
                 tech: ".NET framework (Windows Forms)",
                 src: "https://img.icons8.com/fluency/48/google-forms.png"
-
             },
-        ]
+        ],
+        category: "C#"
     },
     {
         id: 1,
         projectName: "PACMAN",
+        codeUrl: "https://github.com/Saad-Abdulah/PACMAN_OS_Sem-4",
         url: "https://www.linkedin.com/posts/saadabdullah786_pacman-operatingsystems-gamedevelopment-activity-7342557549025542144-m7Dq",
-        image: "projects/Pacman_OS_Demo.png",
+        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        thumbnailimage: "projects/Pacman_OS_Demo.png",
+        screenshots: [
+            "projects/Pacman/Start-Menu.jpg",
+            "projects/Pacman/playing-1.jpg",
+            "projects/Pacman/playing-2.jpg",
+            "projects/Pacman/terminal.jpg",
+            "projects/Pacman/UI-thread-code.png",
+            "projects/Pacman/board-code.png",
+            "projects/Pacman/sin-code.png",
+            "projects/Pacman/threads-main-code.png"
+        ],
         projectDetail: "⁠Developed a 𝙢𝙪𝙡𝙩𝙞-𝙩𝙝𝙧𝙚𝙖𝙙𝙚𝙙 Pac-Man clone using C, OpenGL, and SDL2, implementing key OS concepts like 𝙘𝙤𝙣𝙘𝙪𝙧𝙧𝙚𝙣𝙘𝙮, 𝙨𝙮𝙣𝙘𝙝𝙧𝙤𝙣𝙞𝙯𝙖𝙩𝙞𝙤𝙣, and 𝙚𝙫𝙚𝙣𝙩-𝙙𝙧𝙞𝙫𝙚𝙣 programming. Game logic handled through 𝙥𝙤𝙨𝙞𝙭 𝙩𝙝𝙧𝙚𝙖𝙙𝙨, 𝙢𝙪𝙩𝙚𝙭𝙚𝙨, 𝙨𝙚𝙢𝙖𝙥𝙝𝙤𝙧𝙚𝙨, and a thread-safe input queue for real-time gameplay. Showcased responsive UI, ghost AI, and clean memory management in a fully functional arcade-style experience.",
         technologiesUsed: [
             {
@@ -45,14 +58,16 @@ const portfolio = [
                 tech: "SDL2",
                 src:"projects/techstack/sdl-2.png",
             },
-            ]
+            ],
+        category: "C/C++"
     },
     {
         id: 2,
         projectName: "Brick Breaker in Assembly",
         codeUrl: "https://github.com/Saad-Abdulah/Brick-Breaker-Assembly",
         url: "https://www.linkedin.com/posts/saadabdullah786_customabruserabrinterface-pauseabroption-activity-7288198763410604033-PW2a",
-        image: "projects/brickbreaker.jpg",
+        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        thumbnailimage: "projects/brickbreaker.jpg",
         projectDetail: "A Graphical Brick Breaker game in Assembly lan where the player controls a paddle to bounce a ball and destroy bricks. Game difficulty dependent on level # [1,2,3] | Speed ∝ Level# | Num(hits) to break a brick = Level#",
         technologiesUsed: [
             {
@@ -63,14 +78,17 @@ const portfolio = [
                 tech: "irvine",
                 src: "https://img.icons8.com/material-rounded/50/not-applicable.png"
             },
-        ]
+        ],
+        category: "Assembly"
     },
     {
         id: 3,
         projectName: "Blog App",
         codeUrl: "https://github.com/Saad-Abdulah/Blog-Social-App-MERN",
-        url: "https://www.linkedin.com/posts/saadabdullah786_customabruserabrinterface-pauseabroption-activity-7288198763410604033-PW2a",
-        image: "projects/Blog_App.png",
+        // url: ,
+        //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        screenshots:["projects/blogapp/Blog_Card.png","projects/blogapp/Blog_Create_Page.png", "projects/blogapp/Blog_Info_Page.png", "projects/blogapp/Comment_On_Post.png", "projects/blogapp/Home_Page.png", "projects/blogapp/Login_Page.png", "projects/blogapp/Search_Blog.png", "projects/blogapp/Sign_Up_Page_.png"],
+        thumbnailimage: "projects/Blog_App.png",
         projectDetail: "A dynamic MERN-based blog platform where users can register, log in, and publish blogs with custom cover images. Includes profile image support, a rich text editor, and search functionality. Readers can engage through likes, comments, and post sharing. | Secure Auth | Blog Image Upload | User Avatars | Real-time Engagement | Modern UI/UX.",
         technologiesUsed: [
             {
@@ -84,7 +102,6 @@ const portfolio = [
             {
                 tech: "React",
                 src: "https://img.icons8.com/nolan/64/react-native.png",
-                
             },
             {
                 tech: "NodeJS",
@@ -94,14 +111,25 @@ const portfolio = [
                 tech: "JWT & bcryptjs",
                 src: "https://img.icons8.com/color/48/java-web-token.png",      
             },
-        ]
+        ],
+        category: "Web Dev"
     },
     {
         id: 4,
         projectName: "Coursera App - Firebase",
         codeUrl: "https://github.com/Saad-Abdulah/ecommerce-app-firebase",
-        url: "projects/Ecommrece-Firebase.mov",
-        image: "projects/Ecommerce-Firebase.png", 
+        // url: ,
+        //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        thumbnailimage: "projects/Ecommerce-Firebase.png",
+        screenshots: [
+            "projects/Ecommerce-firebase/Home-page.png",
+            "projects/Ecommerce-firebase/Product-info.png",
+            "projects/Ecommerce-firebase/CartPage.png",
+            "projects/Ecommerce-firebase/Admin-Dashboard.png",
+            "projects/Ecommerce-firebase/Add-product.png",
+            "projects/Ecommerce-firebase/Search-function.png",
+            "projects/Ecommerce-firebase/confirmation-msgfordel.png"
+        ],
         projectDetail: "A modern Firebase-powered E-commerce platform featuring secure user authentication and role-based access control. Users can browse products, manage shopping carts, and access personalized dashboards. Admins have exclusive access to product management functionalities including adding and updating products. The platform showcases a responsive Material Tailwind UI, Redux state management, and protected routing for enhanced security. | Secure Auth | Role-based Access | Cart Management | Admin Dashboard | Modern UI/UX",
         technologiesUsed: [
                 {
@@ -112,7 +140,8 @@ const portfolio = [
                     tech: "Firebase",
                     src: "https://img.icons8.com/color/48/firebase.png",
                 },
-            ]
+            ],
+        category: "Web Dev"
     },
     // {
     //     id: 0,
