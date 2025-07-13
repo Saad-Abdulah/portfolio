@@ -4,8 +4,8 @@ const portfolio = [
         projectName: "FAST Career Connect",
         codeUrl: "https://github.com/Saad-Abdulah/FAST-Career-Connect",
         url: "https://www.linkedin.com/posts/saadabdullah786_%F0%9D%90%85%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-activity-7329773721219395584-VPds",
-        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
-        thumbnailimage: "projects/FAST_Career_Connect.png",
+        demoVideo: "https://youtu.be/TUju0Hgdszk?rel=0&showinfo=0",
+        thumbnailimage: "projects/thumbnails/FAST_Career_Connect.png",
         projectDetail: "A .NET WinForms Desktop App using C# & MSSQL to manage student-recruiter interactions. Includes ER-based DB, role-based forms (Student, Recruiter, TPO, Booth Coordinator), RDLC reports, and complete job placement workflow (profiles, job posting, interviews, hiring, monitoring, stats & reports).",
         technologiesUsed: [
             {
@@ -32,8 +32,8 @@ const portfolio = [
         projectName: "PACMAN",
         codeUrl: "https://github.com/Saad-Abdulah/PACMAN_OS_Sem-4",
         url: "https://www.linkedin.com/posts/saadabdullah786_pacman-operatingsystems-gamedevelopment-activity-7342557549025542144-m7Dq",
-        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
-        thumbnailimage: "projects/Pacman_OS_Demo.png",
+        demoVideo: "https://youtu.be/caOSI6g6oak?rel=0&showinfo=0",
+        thumbnailimage: "projects/thumbnails/Pacman_OS_Demo.png",
         screenshots: [
             "projects/Pacman/Start-Menu.jpg",
             "projects/Pacman/playing-1.jpg",
@@ -64,10 +64,18 @@ const portfolio = [
     {
         id: 2,
         projectName: "Brick Breaker in Assembly",
-        codeUrl: "https://github.com/Saad-Abdulah/Brick-Breaker-Assembly",
+        codeUrl: "https://github.com/Saad-Abdulah/Brick-Breaker-Assembly_3rd-Sem",
         url: "https://www.linkedin.com/posts/saadabdullah786_customabruserabrinterface-pauseabroption-activity-7288198763410604033-PW2a",
-        demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
-        thumbnailimage: "projects/brickbreaker.jpg",
+        demoVideo: "https://youtu.be/OwNFts5aFio?rel=0&showinfo=0",
+        thumbnailimage: "projects/thumbnails/brickbreaker.jpg",
+        screenshots: [
+            "projects/brickbreaker/Demo-Game-Play.jpg",
+            "projects/brickbreaker/Code_SS-1.png",
+            "projects/brickbreaker/Code_SS-2.png",
+            "projects/brickbreaker/Demo-Propsal-Showcase.jpg",
+            "projects/brickbreaker/Code_SS-3.png",
+            "projects/brickbreaker/Code_SS-4.png",
+        ],
         projectDetail: "A Graphical Brick Breaker game in Assembly lan where the player controls a paddle to bounce a ball and destroy bricks. Game difficulty dependent on level # [1,2,3] | Speed ∝ Level# | Num(hits) to break a brick = Level#",
         technologiesUsed: [
             {
@@ -88,7 +96,7 @@ const portfolio = [
         // url: ,
         //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
         screenshots:["projects/blogapp/Blog_Card.png","projects/blogapp/Blog_Create_Page.png", "projects/blogapp/Blog_Info_Page.png", "projects/blogapp/Comment_On_Post.png", "projects/blogapp/Home_Page.png", "projects/blogapp/Login_Page.png", "projects/blogapp/Search_Blog.png", "projects/blogapp/Sign_Up_Page_.png"],
-        thumbnailimage: "projects/Blog_App.png",
+        thumbnailimage: "projects/thumbnails/Blog_App.png",
         projectDetail: "A dynamic MERN-based blog platform where users can register, log in, and publish blogs with custom cover images. Includes profile image support, a rich text editor, and search functionality. Readers can engage through likes, comments, and post sharing. | Secure Auth | Blog Image Upload | User Avatars | Real-time Engagement | Modern UI/UX.",
         technologiesUsed: [
             {
@@ -120,7 +128,7 @@ const portfolio = [
         codeUrl: "https://github.com/Saad-Abdulah/ecommerce-app-firebase",
         // url: ,
         //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
-        thumbnailimage: "projects/Ecommerce-Firebase.png",
+        thumbnailimage: "projects/thumbnails/Ecommerce-Firebase.png",
         screenshots: [
             "projects/Ecommerce-firebase/Home-page.png",
             "projects/Ecommerce-firebase/Product-info.png",
