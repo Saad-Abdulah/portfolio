@@ -30,8 +30,8 @@ const ImageCarousel = ({ images }) => {
     };
 
     return (
-        <div className="relative w-full mt-6 rounded-lg overflow-hidden">
-            <div className="relative w-full pt-[56.25%] bg-DeepNightBlack">
+        <div className="relative w-full mt-6">
+            <div className="relative w-full pt-[56.25%] bg-DeepNightBlack rounded-lg overflow-hidden">
                 <img
                     src={images[currentIndex]}
                     alt={`Screenshot ${currentIndex + 1}`}
@@ -56,14 +56,16 @@ const ImageCarousel = ({ images }) => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                     </svg>
                 </button>
+            </div>
 
-                {/* Dots Indicator */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-2">
+            {/* Dots Indicator - Moved outside the image container */}
+            <div className="flex justify-center mt-4">
+                <div className="flex gap-2 bg-[#1E293B] px-3 py-2 rounded-full">
                     {images.map((_, index) => (
                         <button
                             key={index}
                             onClick={() => setCurrentIndex(index)}
-                            className={`w-2 h-2 rounded-full transition-colors ${
+                            className={`w-2.5 h-2.5 rounded-full transition-colors ${
                                 index === currentIndex ? 'bg-Green' : 'bg-white/50 hover:bg-white/75'
                             }`}
                         />
