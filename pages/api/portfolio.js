@@ -124,7 +124,7 @@ const portfolio = [
     },
     {
         id: 4,
-        projectName: "Coursera App - Firebase",
+        projectName: "Firebase Ecommerce",
         codeUrl: "https://github.com/Saad-Abdulah/ecommerce-app-firebase",
         // url: ,
         //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
@@ -149,6 +149,66 @@ const portfolio = [
                     src: "https://img.icons8.com/color/48/firebase.png",
                 },
             ],
+        category: "Web Dev"
+    },
+    {
+        id: 5,
+        projectName: "ECommerce-MERN",
+        codeUrl: "https://github.com/Saad-Abdulah/Ecommerce-MERN/",
+        // url: ,
+        //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        screenshots: [
+            "projects/Ecommerce-MERN/Homepage-FullView.png",
+            "projects/Ecommerce-MERN/Product-Info.png",
+            "projects/Ecommerce-MERN/User-Cart-Route.png",
+            "projects/Ecommerce-MERN/Checkout-Route.png",
+            "projects/Ecommerce-MERN/Order-Confirmation.png",
+            "projects/Ecommerce-MERN/User-Profile.png",
+            "projects/Ecommerce-MERN/User-Orders-Check.png",
+            "projects/Ecommerce-MERN/User-Wishlist.png",
+            "projects/Ecommerce-MERN/User-Reviews.png",
+            "projects/Ecommerce-MERN/Admin-allProducts-Route.png",
+            "projects/Ecommerce-MERN/Admin-Orders-Route.png",
+            "projects/Ecommerce-MERN/Add-Product.png",
+            "projects/Ecommerce-MERN/Price-Sorting.png",
+            "projects/Ecommerce-MERN/View-Shipping-Address.png"
+        ],
+        thumbnailimage: "projects/Ecommerce-MERN/Homepage-FullView.png",
+        projectDetail: "A comprehensive MERN stack e-commerce platform with advanced features for both users and administrators. Users can browse products, manage their shopping cart, create wishlists, track orders, and leave reviews. The platform includes secure authentication with OTP verification, multiple address management, and a streamlined checkout process. Administrators have access to a powerful dashboard for product management, order processing, and sales analytics. | JWT Authentication | Redux State Management | Material UI Components | Responsive Design | Order Tracking | User Reviews | Admin Dashboard | Cart & Wishlist | Multiple Payment Methods | Email Notifications.",
+        technologiesUsed: [
+            {
+                tech: "MongoDB",
+                src: "https://img.icons8.com/color/48/mongodb.png"
+            },
+            {
+                tech: "Express.js",
+                src: "https://img.icons8.com/nolan/64/express-js.png"
+            },
+            {
+                tech: "React.js",
+                src: "https://img.icons8.com/nolan/64/react-native.png",
+            },
+            {
+                tech: "Node.js",
+                src: "https://img.icons8.com/fluency/48/node-js.png"
+            },
+            {
+                tech: "Redux Toolkit",
+                src: "https://img.icons8.com/color/48/redux.png"
+            },
+            {
+                tech: "Material UI",
+                src: "https://img.icons8.com/color/48/material-ui.png"
+            },
+            {
+                tech: "JWT",
+                src: "https://img.icons8.com/color/48/java-web-token.png"
+            },
+            {
+                tech: "SMTP",
+                src: "https://img.icons8.com/fluency/48/mail.png"  // Using mail icon for SMTP
+            }
+        ],
         category: "Web Dev"
     },
     // {
