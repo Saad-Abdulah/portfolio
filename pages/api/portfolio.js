@@ -156,7 +156,7 @@ const portfolio = [
         projectName: "ECommerce-MERN",
         codeUrl: "https://github.com/Saad-Abdulah/Ecommerce-MERN/",
         // url: ,
-        //demoVideo: "https://youtu.be/5cg2H63Tz90?si=21BwQakSifWN59vB",
+        demoVideo: "https://youtu.be/S2ED2RF3-PU",
         screenshots: [
             "projects/Ecommerce-MERN/Homepage-FullView.png",
             "projects/Ecommerce-MERN/Product-Info.png",
@@ -216,6 +216,7 @@ const portfolio = [
         projectName: "FormCO MERN Platform",
         codeUrl: "https://github.com/Saad-Abdulah/FormCo-MERN",
         thumbnailimage: "projects/FormCo/Application-Organizer.png",
+        demoVideo: "https://youtu.be/kD6DKrNhrdU",
         screenshots: [
             "projects/FormCo/Application-Organizer.png",
             "projects/FormCo/Certificate-Generation.png",
