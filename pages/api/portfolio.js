@@ -230,16 +230,8 @@ const portfolio = [
         projectDetail: "A comprehensive competition management collaborative platform, FormCO (platFORM for COmpetitions) provides a complete solution for organizations to create, manage, and host competitions while offering students an intuitive platform to discover and participate in various events. Features include multi-competition management, brand customization, organizer management, application tracking, automated certificate generation, payment integration, team management, and real-time status updates. Built with Next.js 15, React 19, TypeScript, MongoDB, and modern authentication systems.",
         technologiesUsed: [
             {
-                tech: "Next.js 15",
-                src: "https://img.icons8.com/color/48/next.js.png"
-            },
-            {
                 tech: "React 19",
                 src: "https://img.icons8.com/nolan/64/react-native.png"
-            },
-            {
-                tech: "TypeScript",
-                src: "https://img.icons8.com/color/48/typescript.png"
             },
             {
                 tech: "Tailwind CSS",
@@ -247,10 +239,6 @@ const portfolio = [
             },
             {
                 tech: "MongoDB",
-                src: "https://img.icons8.com/color/48/mongodb.png"
-            },
-            {
-                tech: "Mongoose",
                 src: "https://img.icons8.com/color/48/mongodb.png"
             },
             {
@@ -267,11 +255,7 @@ const portfolio = [
             },
             {
                 tech: "Canvas",
-                src: "https://img.icons8.com/color/48/canvas.png"
-            },
-            {
-                tech: "Multer",
-                src: "https://img.icons8.com/color/48/upload.png"
+                src: "https://img.icons8.com/deco-color/48/easel.png"
             },
             {
                 tech: "Nodemailer",
