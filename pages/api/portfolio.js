@@ -234,8 +234,8 @@ const portfolio = [
                 src: "https://img.icons8.com/nolan/64/react-native.png"
             },
             {
-                tech: "Tailwind CSS",
-                src: "https://img.icons8.com/color/48/tailwind-css.png"
+                tech: "TypeScript",
+                src: "https://img.icons8.com/color/48/typescript.png"
             },
             {
                 tech: "MongoDB",
