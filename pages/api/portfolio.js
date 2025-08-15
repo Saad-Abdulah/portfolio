@@ -215,6 +215,7 @@ const portfolio = [
         id: 6,
         projectName: "FormCO MERN Platform",
         codeUrl: "https://github.com/Saad-Abdulah/FormCo-MERN",
+        url: "https://www.linkedin.com/posts/saadabdullah786_%F0%9D%90%B5%F0%9D%91%92%F0%9D%91%A1%F0%9D%91%A1%F0%9D%91%92%F0%9D%91%9F-%F0%9D%90%B4%F0%9D%91%86%F0%9D%90%B4%F0%9D%91%83-%F0%9D%91%A1%F0%9D%98%A9%F0%9D%91%8E%F0%9D%91%9B-%F0%9D%90%BF%F0%9D%91%8E%F0%9D%91%A1%F0%9D%91%92-activity-7362068764068069376-CYiT",
         thumbnailimage: "projects/FormCo/Application-Organizer.png",
         demoVideo: "https://youtu.be/S2ED2RF3-PU",
         screenshots: [
